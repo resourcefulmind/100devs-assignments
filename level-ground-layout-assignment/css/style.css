@@ -1,0 +1,119 @@
+/* Box Model Hack */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* Clear fix hack */
+.clearfix:after {
+     content: ".";
+     display: block;
+     clear: both;
+     visibility: hidden;
+     line-height: 0;
+     height: 0;
+}
+
+.clear {
+	clear: both;
+}
+
+/******************************************
+/* BASE STYLES
+/*******************************************/
+
+body {
+ font-size: 62.5%;
+}
+
+
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+header {
+  background: #66768a;
+  border-bottom: none;
+}
+
+nav {
+  width: 100vw;
+  overflow: auto;
+  align-items: center;
+  height: 60px;
+}
+
+nav ul li {
+  list-style-type: none;
+  float: left;
+  margin-left: 3%;
+  margin-top: 10px;
+  padding: 10px 10px;
+}
+
+
+
+nav a {
+  text-decoration: none;
+  color: #fff;
+}
+
+nav a img {
+  margin-left: 550px;
+  margin-top: 10px;
+}
+
+.donate-class {
+  float: right;
+  margin-top: 10px;
+  margin-right: 3%;
+  padding: 10px 10px;
+  border: 2px solid #fff;
+  border-radius: 2px;
+  background: #fff;
+  color: #66768a;
+  font-weight: 700;
+}
+
+.below-header {
+  clear: both;
+  background: #66768a;
+  text-align: center;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  color: #fff;
+}
+
+.below-header h1 {
+  font-size: 4em;
+}
+
+.below-header p {
+  font-size: 1.2em;
+}
+
+.below-header p + p {
+  margin-top: 1rem;
+  color: #c7ccd3;
+}
+
+.below-header p + p + p {
+  font-style: italic;
+  margin-top: 3.5em;
+  color: #000;
+  padding-bottom: 1rem;
+}
+
+
+
+footer {
+
+}
+
+
+
+
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
