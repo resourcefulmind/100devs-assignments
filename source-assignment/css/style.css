@@ -7,6 +7,8 @@
 
 html {
   font-size: 62.5%;
+  color: #304659;
+
 }
 
 /* Clear fix hack */
@@ -28,10 +30,7 @@ html {
 /*******************************************/
 
 body {
-  
-  border: 2px solid orange;
-  color: #304659;
-
+  /* border: 2px solid orange; */
 }
 
 
@@ -48,7 +47,8 @@ nav {
   width: 100%;
   /* overflow: auto; */
   border: 2px solid blue;
-  height: 50px;
+  height: 60px;
+  padding: 5px 10px;
 }
 
 .logo {
@@ -57,7 +57,32 @@ nav {
   border: 2px solid black;
   width: 20%;
   float: left;
+  color: #304659;
+}
 
+nav ul {
+  border: 2px solid orange;
+  float: left;
+  width: 60%;
+  margin-top: 20px;
+}
+
+nav ul li {
+  list-style: none;
+  display: inline;
+  margin-left: 15%;
+  color: #304659;
+  font-size: 1.2em;
+}
+
+nav ul li a {
+  color: #304659;
+  text-decoration: none;
+  border: 2px solid seagreen;
+}
+
+nav .nav-btn {
+  border: 2px solid salmon;
 }
 
 /* header nav .logo {
