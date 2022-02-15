@@ -98,7 +98,7 @@ main .main-left {
   border: 2px solid blue;
   float: left;
   width: 40%;
-  height: 30vh;
+  height: 40vh;
   margin-top: 50px;
 }
 
@@ -126,11 +126,19 @@ main section form input[type=text] {
 }
 
 #form-btn {
-  border: 2px solid violet;
-  padding: 10px 10px;
+  border: 2px solid #304659;
+  padding: 10px 20px;
   margin-bottom: 20px;
   text-decoration: none;
   float: left;
+  background: #304659;
+  color: #F5F9FC;
+  font-weight: 700;
+}
+
+main section > p {
+  clear: both;
+  font-size: 1.3em;
 }
 
 
