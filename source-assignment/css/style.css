@@ -97,8 +97,8 @@ main {
 main .main-left {
   border: 2px solid blue;
   float: left;
-  width: 40%;
-  height: 40vh;
+  width: 50%;
+  height: 50vh;
   margin-top: 50px;
 }
 
@@ -139,6 +139,21 @@ main section form input[type=text] {
 main section > p {
   clear: both;
   font-size: 1.3em;
+}
+
+.main-right {
+  border: 2px solid lime;
+  float: right;
+  width: 50%;
+}
+
+.main-right img {
+  width: 100%;
+  height: 50vh;
+}
+
+.lower-section {
+  clear: both;
 }
 
 
