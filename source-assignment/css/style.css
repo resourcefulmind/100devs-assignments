@@ -92,7 +92,6 @@ main {
   clear: both;
   background: #F5F9FC;
   padding-left: 6%;
-  text-align: center;
 }
 
 main .main-left {
@@ -109,7 +108,7 @@ main section span {
 }
 
 main section h1 {
-  font-size: 3em;
+  font-size: 4em;
 }
 
 main section form {
@@ -154,8 +153,20 @@ main section > p {
 
 .lower-section {
   clear: both;
+  border: 2px solid brown;
+  height: 40vh;
 }
 
+.lower-section .first-card, .second-card, .third-card, .fourth-card {
+  border: 2px solid gold;
+  float: left;
+  width: 25%;
+  height: 100%;
+}
+
+.lower-section .first-card, .second-card, .third-card, .fourth-card > i {
+  border: 2px solid black;
+}
 
 
 
