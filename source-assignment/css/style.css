@@ -175,13 +175,12 @@ main section > p {
 }
 
 .lower-section .first-card > p, .second-card > p, .third-card > p, .fourth-card > p {
-  font-size: 1.3em;
+  font-size: 1.5em;
   margin-bottom: 20px;
 }
 
 .lower-section .first-card > a, .second-card > a, .third-card > a, .fourth-card > a {
-  border: 2px solid black;
-  font-size: 1.5em;
+  font-size: 1.3em;
   margin-bottom: 20px;
   text-decoration: none;
   color: #304659;
@@ -189,12 +188,17 @@ main section > p {
 }
 
 .lower-section .first-card > span, .second-card > span, .third-card > span, .fourth-card > span {
-  border: 2px solid black;
   font-size: 1.5em;
   margin-bottom: 20px;
-  text-decoration: none;
   color: #304659;
   font-weight: 700;
+  padding-left: 5px;
+}
+
+.bottom-section {
+  border: 2px solid black;
+  height: 30vh;
+  padding-left: 6%;
 }
 
 footer {
