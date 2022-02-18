@@ -38,9 +38,8 @@ body {
 /* LAYOUT
 /*******************************************/
 header {
-  border: 2px solid red;
-background: #F5F9FC;
-border-bottom: none;
+  background: #F5F9FC;
+  border-bottom: none;
 }
 
 nav {
@@ -95,7 +94,6 @@ main {
 }
 
 main .main-left {
-  border: 2px solid blue;
   float: left;
   width: 50%;
   height: 50vh;
@@ -142,7 +140,6 @@ main section > p {
 }
 
 .main-right {
-  border: 2px solid lime;
   float: right;
   width: 50%;
 }
@@ -153,12 +150,10 @@ main section > p {
 
 .lower-section {
   clear: both;
-  border: 2px solid brown;
   height: 40vh;
 }
 
 .lower-section .first-card, .second-card, .third-card, .fourth-card {
-  border: 2px solid gold;
   float: left;
   width: 25%;
   height: 80%;
@@ -196,14 +191,29 @@ main section > p {
 }
 
 .bottom-section {
-  border: 2px solid black;
-  height: 30vh;
+  height: 35vh;
   padding-left: 6%;
+  padding-right: 6%;
+  width: 100%;
 }
 
-footer {
+.bottom-section h1 {
+  font-size: 4em;
+}
+
+.bottom-section p {
+  font-size: 1.5em;
+  margin-bottom: 20px;
+}
+
+.bottom-section div {
+  border: 2px solid #F5F9FC;
+  height: 60px;
+  background: #F5F9FC;
+
 
 }
+
 
 /******************************************
 /* ADDITIONAL STYLES
