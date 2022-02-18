@@ -161,15 +161,41 @@ main section > p {
   border: 2px solid gold;
   float: left;
   width: 25%;
-  height: 100%;
+  height: 80%;
 }
 
-.lower-section .first-card, .second-card, .third-card, .fourth-card > i {
+.lower-section .first-card > i, .second-card > i, .third-card > i, .fourth-card > i {
+  font-size: 2.5em;
+  margin-bottom: 20px;
+}
+
+.lower-section .first-card > h5, .second-card > h5, .third-card > h5, .fourth-card > h5 {
+  font-size: 1.5em;
+  margin-bottom: 20px;
+}
+
+.lower-section .first-card > p, .second-card > p, .third-card > p, .fourth-card > p {
+  font-size: 1.3em;
+  margin-bottom: 20px;
+}
+
+.lower-section .first-card > a, .second-card > a, .third-card > a, .fourth-card > a {
   border: 2px solid black;
+  font-size: 1.5em;
+  margin-bottom: 20px;
+  text-decoration: none;
+  color: #304659;
+  font-weight: 700;
 }
 
-
-
+.lower-section .first-card > span, .second-card > span, .third-card > span, .fourth-card > span {
+  border: 2px solid black;
+  font-size: 1.5em;
+  margin-bottom: 20px;
+  text-decoration: none;
+  color: #304659;
+  font-weight: 700;
+}
 
 footer {
 
