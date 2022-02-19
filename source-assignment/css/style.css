@@ -49,6 +49,10 @@ nav {
   border-bottom: none;
 }
 
+nav a.icon {
+  display: none;
+}
+
 .logo {
   text-decoration: none;
   display: block;
@@ -210,8 +214,6 @@ main section > p {
   border: 2px solid #F5F9FC;
   height: 60px;
   background: #F5F9FC;
-
-
 }
 
 
@@ -219,4 +221,99 @@ main section > p {
 /* ADDITIONAL STYLES
 /*******************************************/
 /* MEDIA QUERIES */
+
+@media screen and (max-width: 1100px) {
+  main .main-left {
+    height: 40vh;
+  }
+
+  nav ul li {
+    margin-left: 10%;
+  }
+
+  .lower-section .first-card, .second-card {
+    width: 50%;
+    height: 40%;
+    margin-bottom: 40px;
+    
+  }
+  .lower-section .third-card, .fourth-card {
+    width: 50%;
+    height: 40%;
+    margin-bottom: 40px;
+  }
+  nav a.icon {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 710px) {
+
+  nav #navLinks {
+    display: none;
+  }
+
+  nav a.icon {
+  display: block;
+  position: absolute;
+  left: 0;
+  top: 0;
+  float: left;
+  width: 10%;
+  font-size: 3em;
+  padding: 5px 20px;
+  margin-top: 5px;
+  color: #304659;
+  }
+
+  .logo {
+    text-decoration: none;
+    text-align: center;
+    display: block;
+    width: 90%;
+    float: right;
+    color: #304659;
+  }
+
+  nav {
+    border-bottom: 2px solid lightgray;
+    
+  }
+
+  nav ul li {
+    margin-left: 5%;
+    border: 2px solid black;
+    
+  }
+
+  
+
+  main .main-left {
+    width: 100%;
+    /* margin-left: 5%; */
+  }
+
+  .main-right {
+    clear: both;
+    width: 100%;
+    
+  }
+
+  main section form {
+    /* border: 2px solid blue; */
+    width: 80%;
+    float: left;
+    
+  }
+
+  #form-btn {
+    margin-top: 20px;
+    clear: both;
+    width: 80%;
+    text-align: center;
+    
+  }
+
+  
+}
 

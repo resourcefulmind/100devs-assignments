@@ -21,13 +21,17 @@
     <header>
       <nav class="clearfix">
         <a class="logo" href="#"><h1>Source</h1></a>
-        <ul>
+        <ul id="navLinks">
           <li><a href="#">First Link</a></li>
           <li><a href="#">Second Link</a></li>
           <li><a href="#">Third Link</a></li>
           <li><a href="#">Fourth Link</a></li>
         </ul>
-        <a href="#" class="nav-btn">Button</a>
+        <a href="#" class="nav-btn" id="navLinks">Button</a>
+        <!-- "Hamburger menu" / "Bar icon" to toggle the navigation links -->
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+          <i class="fa-solid fa-bars"></i>
+        </a>
       </nav>
     </header>
     <main>
