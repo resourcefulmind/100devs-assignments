@@ -11,7 +11,7 @@ body {
     font-size: 62.5%;
     line-height: 1.5;
     color: #000;
-    background: #a1c3ff;
+    background: #FF63A7;
 }
 
 img {
@@ -33,7 +33,7 @@ ul {
 }
 
 .navbar {
-    background: #3474e6;
+    background: #FF63A7;
     color: #fff;
     height: 60px;
 }
@@ -51,7 +51,7 @@ ul {
 }
 
 .navbar a:hover {
-    color: lightblue;
+    color: pink;
 }
 
 .navbar .container {
@@ -80,6 +80,17 @@ ul {
     line-height: 1.2;
 }
 
+.header .tell-her {
+    margin-top: 20px;
+    padding: 10px;
+    border-radius: 4px;
+    background: #FF63A7;
+    color: #fff;
+    font-weight: 700;
+    border: none;
+    
+}
+
 .header img {
     /* max-width: 400px; */
 }
@@ -97,7 +108,7 @@ ul {
 
 .box {
     flex: 1;
-    background: #0a51cc;
+    background: #1F3131;
     color: #fff;
     border-radius: 10px;
     margin: 20px 10px;
